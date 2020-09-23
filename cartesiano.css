@@ -1,0 +1,139 @@
+body
+{
+    margin: 0px;
+    background-color: #fdfffc;
+}
+.header
+{
+    color: #33415c;
+    font-family: cursive;
+    height: 90px;
+    width: 100%;
+}
+.header h1
+{
+    font-size: 30px;
+    padding-left: 264px ;
+}
+.container
+{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container__panels
+{
+    width: 180px;
+    height: 100%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__panelDec
+{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #33415c;
+    font-size: smaller;
+}
+.container__panel
+{
+    height: 360px;
+    width: 90px;
+    background-color: #f9f9f9;
+    margin-top: 15px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.container__panel > button:hover
+{
+    cursor: pointer;
+}
+.container__panel > input
+{
+    width: 52px;
+    height: 52px;
+}
+.container__panel > input:hover
+{
+    cursor: pointer;
+}
+.container__panel-tablaVal
+{
+    height: 380px;
+    margin-top: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.container__panel-tablaVal label
+{
+    color: #33415c;
+}
+#plano
+{
+    width: 620px;
+    height: 620px;
+}
+#btnLapiz
+{
+    width: 60px;
+    height: 60px;
+    background-image: url(./Icons/lapiz.png);
+}
+#btnLinea
+{
+    width: 60px;
+    height: 60px;
+    background-image: url(./Icons/linea.png);
+}
+#btnDeshacer
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(./Icons/deshacer.png);
+}
+#btnRehacer
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(./Icons/rehacer.png);
+}
+#tabla
+{
+    width: 124px;
+    height: 350px;
+    border: solid #33415c 1px;
+}
+.footer
+{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer a
+{
+    color: #03045e;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}

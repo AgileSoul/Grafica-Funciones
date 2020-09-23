@@ -1,0 +1,2 @@
+Grafica Funciones es una web page que te permite graficar funciones con
+el plano cartesiano y usar una tabla de valores como referencia, no tiene borrador pero si puedes usar ctrl + z y ctrl + y o los botones para deshacer y rehacer.

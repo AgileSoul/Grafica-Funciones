@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Plano Cartesiano Free </title>
+        <link rel="stylesheet" href="cartesiano.css" /> 
+    </head>
+    <body>
+        <header class="header">
+            <h1> Grafica Funciones </h1>
+        </header>
+        <div class="container">
+            <canvas id="plano" height="620" width=620></canvas>
+            <div class="container__panel-tablaVal">
+                <label >Tabla de valores</label>
+                <canvas id="tabla" height="350" width="124"></canvas>
+            </div>
+            <div class= "container__panels">
+                <div class= "container__panelDec">
+                    <input id="chBox_PlanoDecimal" type= "checkbox" value="planoDec" name="planoDec"/>
+                    <br/>
+                    <label for= "planoDec"> Usar plano decimal</label>
+                </div>
+                <div class="container__panel">
+                    <input id="slccolor" type="color" oninput="definirColor(this.value);" />
+                    <button id="btnLapiz"> </button>
+                    <button id="btnLinea"> </button>
+                    <button id="btnDeshacer"> </button>
+                    <button id="btnRehacer"> </button>
+                </div>
+            </div>
+        </div>
+        <footer class= "footer">
+            <a id="acercaDe"> Acerca de </a>
+            <a href= "https://github.com/AgileSoul"> Mi github </a>
+            <a id= "contactame"> Contactame </a>
+        </footer>
+        <script src="dibujar.js"> </script>
+        <script src="plano.js"> </script>
+        <script src="tablaVal.js"> </script>
+        <script src="footer.js"> </script>
+        <script src="linea.js"> </script>
+        <script src="lapiz.js"> </script>
+        <script src="mouseEventos.js"> </script>
+        <script src="deshacer-rehacer.js"> </script>
+    </body>
+</html>
